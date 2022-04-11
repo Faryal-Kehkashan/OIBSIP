@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(104, 59, 0, 0.664);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+.container{
+    margin: 120px auto;
+    height: auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 5%;
+    text-align: center;
+}
+h1{
+    padding: 4% 0 2% 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 4%;
+}
+label{
+    font-size: 30px;
+}
+input{
+    width: 80%;
+    margin: 1% 0;
+    padding: 4% 1%;
+    font-size: 30px;
+}
